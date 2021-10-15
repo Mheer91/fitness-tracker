@@ -2,11 +2,13 @@ const express = require('express');
 const mongoose = require("mongoose");
 const logger = require("morgan");
 const apiroutes = require("./routes/api-routes");
+const homeroutes = require("./routes/home-routes");
 
 const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(apiroutes);
+app.use(homeroutes);
 app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
