@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require("mongoose");
 const logger = require("morgan");
+require('dotenv').config();
 const apiroutes = require("./routes/api-routes");
 const homeroutes = require("./routes/home-routes");
 
@@ -16,7 +17,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/fitness-tracker',
+    process.env.MONGODB_URI,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
