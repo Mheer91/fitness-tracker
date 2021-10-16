@@ -10,3 +10,5 @@ This app allows you to track your workout history over the last 7 days! It allow
 [GitHub Repo](https://github.com/Mheer91/fitness-tracker)
 
 ## Screenshots
+![DashboardFitness](https://user-images.githubusercontent.com/80427770/137604939-fcc4ad52-dbfe-47d2-9d6f-3ff781404c39.jpg)
+![LandingFitness](https://user-images.githubusercontent.com/80427770/137604941-6855acad-7d52-418f-9e96-017db7ebb7e5.jpg)
